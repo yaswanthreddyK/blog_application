@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*  
+navbar
+*/
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: 'montserrat';
+}
+
+
+.nav-bar{
+    background-color: white;
+    color: #121212;
+    flex-basis: 65em;
+    min-height: 3.5em;
+    margin: 0 3.5em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1em;
+    height: 100%;
+    font-weight: 600;
+    
+}
+
+nav .flex-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+    height: 100%;
+}
+
+nav .flex-right{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
+nav .logo-icon{
+    width:10em;
+    height:3.5em;
+}
+
+nav .logo-icon img{ 
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+nav .nav-ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    height: 100%;
+    position: relative;
+}
+
+.nav-ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+ }
+
+li .write-item{
+    display: flex;
+    align-items: center;
+    gap:0.2em;
+
+}
+
+nav .nav-ul li:hover{
+    color: rgb(255, 54, 54);
+    cursor: pointer;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: 0px;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    padding: 0.4em;
+    border-radius: 3px;
+}
+
+.search-btn:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+.search-btn svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.search-btn:hover svg .g > *{
+    stroke:#ff3636 !important; 
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+    color: inherit;
+ }
+
+ a:hover{
+    color: rgb(255, 54, 54);
+    cursor: pointer;
+ }
+
+ 
+ /* Categories */
+
+
+ 
+.categories-list{
+    position: absolute;
+    top: 3.5em;
+}
+ .categories-list ul{
+    color: #121212;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style: none;
+    box-shadow: 0 0  1px -1px;
+ }
+
+ .categories-list ul li{
+    padding: 0.5em 1em;
+ }
