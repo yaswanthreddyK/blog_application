@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:wght@400;600&display=swap');
+
+
+.input-div {
+    height: 100%;
+    flex:1;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1em;
+}
+
+.input-div input{
+    outline-color: rgb(255, 160, 160);
+    border: 0px;
+    background-color: rgb(245, 245, 245);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    font-style: 'poppins';
+}
+
+.input-div input:focus{
+    background-color: white;
+}
+
